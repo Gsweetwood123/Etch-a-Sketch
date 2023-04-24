@@ -1,4 +1,15 @@
-div {
-   width: 100px; 
-   height: 100px;
+#main {
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.sketch {
+   border: 1px black solid;
+   width: 96px; 
+   height: 96px;
+}
+
+.sketch-over {
+   background-color: black;
 }
